@@ -1,6 +1,6 @@
 #! /bin/bash
 
-can_uuid=9222d7d8561a
+can_uuid=211082196b79
 
 # flash
 echo "Flashing $can_uuid"
