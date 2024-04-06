@@ -3,11 +3,11 @@ systemctl stop klipper.service
 
 pushd ~/klipper
 git pull
-pulld
+popd
 
 pushd ~/katapult
 git pull
-pulld
+popd
 
 ./update_octopus.sh
 ./update_ebb.sh
