@@ -9,7 +9,7 @@ pushd ~/katapult
 git pull
 popd
 
-./update_octopus.sh
 ./update_ebb.sh
+./update_octopus.sh
 
 systemctl start klipper.service
